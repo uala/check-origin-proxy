@@ -5,9 +5,9 @@ This is not like a CORS check, this is a manual check on the origin of the reque
 This means that the request can be done only from another allowed website and no server side requests are permitted.
 
 You can start this service with these env variables:
-- HOST=<Url of the service you want to proxy>
-- CREDENTIALS=<Basic auth of the service, if needed>
-- ALLOWED_ORIGINS=<list origins allowed, comma separated
+- HOST=`<Url of the service you want to proxy>`
+- CREDENTIALS=`<Basic auth of the service, if needed>`
+- ALLOWED_ORIGINS=`<list of origins allowed, comma separated>`
 
 Example:
 
