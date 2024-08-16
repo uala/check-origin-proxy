@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM docker.twtools.io/docker_io/library/node:18-alpine
 
 RUN apk add --update tzdata
 ENV TZ=Europe/Rome
